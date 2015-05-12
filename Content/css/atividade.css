@@ -1,0 +1,93 @@
+body{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+figure{
+    width: 240px;
+    height: 360px;
+    float: left;
+}
+
+figure img{
+    width: 240px;
+    height: 320px;
+    margin: 5px auto;
+    border-radius: 10px 50px;
+    box-shadow: 2px 2px 15px gray;
+}
+
+figure figcaption{
+    text-align: center;
+    font-size: small;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-shadow: 4px 4px 15px;
+    font-style: italic;
+}
+
+header{
+    width: 80%;
+    height: 150px;
+    border: solid 0px gray;
+    border-radius: 20px 5px;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 15px gray;
+}
+
+#alunos{
+    width: 81%;
+    margin: 2em auto;
+    border:  solid 0px #235;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px gray; 
+    
+}
+
+footer{
+    width: 80%;
+    text-align: center;
+    margin: auto auto;
+}
+
+footer p{
+    font-size: small; 
+}
+
+.label{
+    font-weight: bold;
+}
+
+.login{
+	width: 50%;
+	float: left;
+    padding-left: 20%;
+}
+
+.loginImgUniv
+{
+    padding-top: 50px;
+}
+
+.loginImgUniv img
+{
+    width: 30%;
+    height: 30%;
+    padding-left: 5px;
+}
+
+.imgT
+{
+    width:  240px !important;
+    height: 320px !important;
+}
+
